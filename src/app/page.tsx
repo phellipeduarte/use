@@ -5,6 +5,7 @@ export default function Home() {
     <main>
       <Button text="Comprar" link="/" type={Type.Main} />
       <Button text="Sobre" link="/" type={Type.Sec} />
+      <Button text="Remover" link="/" type={Type.Danger} />
     </main>
   );
 }
